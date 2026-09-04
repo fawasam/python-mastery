@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "production-fastapi-application"
+version = "1.0.0"
+description = "Enterprise FastAPI Backend Application"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "pydantic>=2.6.0",
+    "sqlalchemy>=2.0.28"
+]

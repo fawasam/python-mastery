@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "type": "INCOME",
+    "category": "Salary",
+    "amount": 4500.0,
+    "timestamp": "2026-09-04 09:29:56"
+  },
+  {
+    "id": 2,
+    "type": "INCOME",
+    "category": "Freelance",
+    "amount": 800.0,
+    "timestamp": "2026-09-04 09:29:56"
+  },
+  {
+    "id": 3,
+    "type": "EXPENSE",
+    "category": "Housing Rent",
+    "amount": 1600.0,
+    "timestamp": "2026-09-04 09:29:56"
+  },
+  {
+    "id": 4,
+    "type": "EXPENSE",
+    "category": "Groceries",
+    "amount": 450.0,
+    "timestamp": "2026-09-04 09:29:56"
+  },
+  {
+    "id": 5,
+    "type": "EXPENSE",
+    "category": "Utilities",
+    "amount": 180.0,
+    "timestamp": "2026-09-04 09:29:56"
+  },
+  {
+    "id": 6,
+    "type": "EXPENSE",
+    "category": "Dining Out",
+    "amount": 120.0,
+    "timestamp": "2026-09-04 09:29:56"
+  }
+]
