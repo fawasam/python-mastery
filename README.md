@@ -148,4 +148,39 @@ For each topic folder:
 5. **Solve `04_exercises.py`**: Implement solutions for Levels 1–4.
 6. **Verify against `05_solution.py`**: Compare your code with idiomatic Python solutions.
 
+---
+
+## 🐙 GitHub Repository & Git Setup
+
+- **GitHub Repository URL**: `https://github.com/fawasam/python-mastery.git`
+
+### Initializing Git and Pushing to GitHub
+
+If you are pushing this repository to GitHub for the first time:
+
+```bash
+# Navigate into the project directory
+cd python-mastery
+
+# Initialize Git repository (if not already initialized)
+git init
+
+# Rename default branch to main
+git branch -M main
+
+# Add remote origin
+git remote add origin https://github.com/fawasam/python-mastery.git
+
+# Stage all files
+git add .
+
+# Create initial commit
+git commit -m "feat: initial commit for Python Mastery learning repository"
+
+# Push to GitHub main branch
+git push -u origin main
+```
+
+---
+
 Happy Coding! 🚀
