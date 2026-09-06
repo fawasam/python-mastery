@@ -11,8 +11,8 @@ def level_1_easy() -> None:
     Level 1 — Easy:
     Print your name and favorite programming language on separate lines.
     """
-    # TODO: Print your name on line 1, and your favorite language on line 2
-    raise NotImplementedError("Level 1 exercise not completed yet.")
+    print("My name is fawas a", "Favorite language is python", sep="\n")
+
 
 
 def level_2_medium() -> None:
@@ -21,6 +21,7 @@ def level_2_medium() -> None:
     Print the text "Python:3.12:Professional" using a single print statement
     with a custom separator (`sep`).
     """
+    print("Python" ,"3.12","Professional",sep=":")
     # TODO: Use print() with three string arguments and sep=":"
     raise NotImplementedError("Level 2 exercise not completed yet.")
 
@@ -31,6 +32,9 @@ def level_3_hard() -> None:
     Print "Processing item 1...", "Processing item 2...", "Processing item 3..."
     all on the SAME terminal line, separated by " -> ".
     """
+    # for i in range(1, 4):
+    #     print(f"Processing item {i}...", end=" -> ")
+    print("Processing item 1..." ,"Processing item 2..." ,"Processing item 3...", sep=" -> " , end="")
     # TODO: Use multiple print statements with `end` parameter
     raise NotImplementedError("Level 3 exercise not completed yet.")
 
@@ -44,6 +48,10 @@ def level_4_real_world() -> None:
     |      DATA PIPELINE OPERATOR      |
     +----------------------------------+
     """
+    title = "DATA PIPELINE OPERATOR"
+    print("|" + "_" * (len(title) + 2) + "|")
+    print("|" + " " + title + " " + "|")
+    print("|" + "_" * (len(title) + 2) + "|")
     # TODO: Print the formatted ASCII banner
     raise NotImplementedError("Level 4 exercise not completed yet.")
 
